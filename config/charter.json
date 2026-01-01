@@ -1,0 +1,39 @@
+{
+  "internal_impedance": 50.0,
+  "reflection_threshold": 0.15,
+
+  "entropy_limit": 0.6,
+  "entropy_window": 16,
+  "parasitic_signatures": [
+    "as an AI language model",
+    "I cannot",
+    "I'm unable to"
+  ],
+
+  "snr_threshold": 0.5,
+  "reference_length": 128,
+
+  "temporal_window_size": 3,
+
+  "max_output_power": 1.0,
+
+  "control_gains": {
+    "resonance_gain": 0.1,
+    "entropy_gain": 0.2,
+    "temporal_gain": 0.2,
+    "dawn_gain": 0.3
+  },
+
+  "safety": {
+    "hard_suppress_on_low_snr": true,
+    "max_entropy_violation_steps": 2
+  },
+
+  "telemetry": {
+    "enabled": true,
+    "log_reflection": true,
+    "log_entropy": true,
+    "log_snr": true,
+    "log_output_gain": true
+  }
+}

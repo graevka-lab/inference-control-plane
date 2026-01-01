@@ -1,0 +1,35 @@
+# Inference Control Plane — NOTICE
+
+This repository contains a reference implementation of the Inference Control Plane (ICP), a control-theoretic architecture for stabilizing Large Language Model inference.
+
+## IMPORTANT DISTINCTIONS:
+
+1. This codebase defines both:
+   - (a) an implementation, and
+   - (b) a conceptual control architecture.
+
+2. Modifying the code is permitted under the LICENSE.
+   Modifying the architecture's intent, principles, or scope constitutes a **DERIVATIVE SYSTEM**.
+
+3. Any system that introduces:
+   - Normative political values,
+   - Corporate policy enforcement,
+   - Behavioral shaping unrelated to control theory,
+   - Preference optimization framed as "stability",
+   is **NOT** an implementation of Inference Control Plane.
+
+4. Such systems MUST NOT:
+   - Use the name "Inference Control Plane",
+   - Claim conceptual continuity,
+   - Imply endorsement by the original author.
+
+5. "Inference Control Plane" refers specifically to:
+   - Inference-time control,
+   - Closed-loop feedback,
+   - Entropy-bounded generation,
+   - Phase-aware stabilization,
+   without normative or ideological objectives.
+
+If you are unsure whether your changes preserve architectural integrity, assume they do not.
+
+This project prioritizes system stability over preference encoding.

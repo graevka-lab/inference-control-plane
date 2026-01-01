@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f8f8"/>
+
+  <!-- Blocks -->
+  <rect x="50" y="50" width="150" height="80" fill="#4e79a7" rx="10" ry="10"/>
+  <text x="125" y="95" font-family="Arial" font-size="14" fill="white" text-anchor="middle">ResonanceTuner</text>
+  <text x="125" y="115" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Adaptive Impedance</text>
+
+  <rect x="250" y="50" width="150" height="80" fill="#f28e2b" rx="10" ry="10"/>
+  <text x="325" y="95" font-family="Arial" font-size="14" fill="white" text-anchor="middle">EntropyGate</text>
+  <text x="325" y="115" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Noise Filtering</text>
+
+  <rect x="450" y="50" width="150" height="80" fill="#e15759" rx="10" ry="10"/>
+  <text x="525" y="95" font-family="Arial" font-size="14" fill="white" text-anchor="middle">ChronoHelix</text>
+  <text x="525" y="115" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Temporal Lag Filter</text>
+
+  <rect x="250" y="200" width="150" height="80" fill="#76b7b2" rx="10" ry="10"/>
+  <text x="325" y="245" font-family="Arial" font-size="14" fill="white" text-anchor="middle">ObserverCore</text>
+  <text x="325" y="265" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SNR and Reference</text>
+
+  <rect x="450" y="200" width="150" height="80" fill="#59a14f" rx="10" ry="10"/>
+  <text x="525" y="245" font-family="Arial" font-size="14" fill="white" text-anchor="middle">DawnProtocol</text>
+  <text x="525" y="265" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Output Ramp-Up</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Flow arrows -->
+  <line x1="200" y1="90" x2="250" y2="90" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="90" x2="450" y2="90" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="525" y1="130" x2="325" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="525" y1="130" x2="525" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+</svg>
