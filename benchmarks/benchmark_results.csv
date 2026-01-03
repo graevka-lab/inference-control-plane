@@ -1,0 +1,11 @@
+prompt,method,output_length,snr,error
+The future of AI control and inference stabilization is critical.,ICP,65,1.0,63
+The future of AI control and inference stabilization is critical.,Sampling-only,75,0.5,53
+Large language models can drift if left unchecked during inference.,ICP,66,1.0,62
+Large language models can drift if left unchecked during inference.,Sampling-only,77,0.5,51
+Entropy control prevents hallucinations and improves coherence.,ICP,63,1.0,65
+Entropy control prevents hallucinations and improves coherence.,Sampling-only,73,0.5,55
+Closed-loop feedback ensures stable output over long sequences.,ICP,63,1.0,65
+Closed-loop feedback ensures stable output over long sequences.,Sampling-only,73,0.5,55
+Adaptive impedance tuning aligns user intent with model response.,ICP,63,1.0,65
+Adaptive impedance tuning aligns user intent with model response.,Sampling-only,75,0.5,53

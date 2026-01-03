@@ -1,5 +1,16 @@
+import sys
+import os
+
+# 1. Fix paths BEFORE importing icp
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+# 2. Standard imports
 import csv
 import matplotlib.pyplot as plt
+
+# 3. Project imports
 from icp.inference_control_plane import InferenceControlPlane
 from icp.types import Signal, Noise
 

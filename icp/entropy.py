@@ -26,7 +26,21 @@ class EntropyGate:
 
     def process(self, signal: Signal) -> (Signal, dict):
         entropy = self.estimate_entropy(signal)
-        telemetry = {"entropy": float(entropy)}
-        if float(entropy) > self.entropy_limit:
+        
+        # Meta-Uncertainty Heuristic:
+        # High entropy usually implies high uncertainty, but we add noise sensitivity
+        uncertainty = float(entropy) * 0.5  # Placeholder heuristic
+        
+        telemetry = {
+            "entropy": float(entropy),
+            "meta_uncertainty": uncertainty
+        }
+        
+        # Adaptive Thresholding:
+        # If uncertainty is high, we lower the allowed entropy threshold
+        adaptive_limit = self.entropy_limit / (1.0 + uncertainty)
+        
+        if float(entropy) > adaptive_limit:
             signal = self.soft_filter(signal)
+            
         return signal, telemetry

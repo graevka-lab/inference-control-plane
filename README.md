@@ -6,12 +6,16 @@
 [![License: Polyform Noncommercial](https://img.shields.io/badge/License-Polyform_NC-2ecc71.svg)](LICENSE)
 
 ### *Stabilizing LLM Inference via Control Theory, Not Prompt Alchemy*
+<p align="center">
+  <img src="docs/ICP_Thermodynamics.gif" alt="ICP Phase Space Dynamics" width="800">
+</p>
 
 ---
 
 ## Abstract
 
 Large Language Models (LLMs) operate as high-dimensional, nonlinear dynamical systems during inference. Despite deterministic weights, their runtime behavior exhibits instability, phase drift, and entropy amplification.
+> **Read the full vision:** [Toward Thermodynamic Regulation of Intelligence](docs/manifesto.md)
 
 **Inference Control Plane (ICP)** is a modular, model-agnostic control layer that stabilizes LLM inference by framing meaning generation as a signal propagation problem in nonlinear phase space. It introduces explicit control mechanisms: adaptive impedance matching, entropy-bounded filtering, and feedback-regulated output power.
 
@@ -185,5 +189,7 @@ See `docs/governance.md` and `LICENSE_COMMERCIAL.md` for details.
 ## 📧 Contact
 
 **GitHub:** [@graevka-lab](https://github.com/graevka-lab)
+
 **X (Twitter):** [@Graevka](https://x.com/Graevka)
+
 **LinkedIn:** [Graevka Suvorov](https://www.linkedin.com/in/graevka-s-97332b369/)
